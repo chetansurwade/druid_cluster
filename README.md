@@ -32,8 +32,6 @@ Available environment options for AWS s3 config:
 - `S3_INDEXING_BUCKET` '-'
 - `S3_ACCESS_KEY` '-'
 - `S3_SECRET_KEY` '-'
-- `S3_STORAGE_BUCKET` '-'
-- `S3_INDEXING_BUCKET` '-'
 - `AWS_REGION` '-'
 
 Available environment options for database config:
