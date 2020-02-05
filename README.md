@@ -2,8 +2,7 @@
 A fully functional druid cluster on your local machine with AWS s3 as deep storage configuration.
 
 Tags:
-
-- 0.17.0, latest
+- latest
 
 What is Druid?
 ==================
