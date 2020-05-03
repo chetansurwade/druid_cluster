@@ -29,6 +29,15 @@ services:
     container_name: zookeeper
     image: zookeeper:latest
     env_file: environment
+  
+  kafka:
+    image: 'bitnami/kafka:latest'
+    container_name: kafka
+    ports:
+      - '9092:9092'
+    env_file: environment
+    depends_on:
+      - zookeeper
 
   coordinator:
     image: chetansurwade/druid

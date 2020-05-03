@@ -1,6 +1,6 @@
 FROM anapsix/alpine-java:8_server-jre_unlimited
 # Druid env variable
-ENV DRUID_VERSION                   0.17.0
+ENV DRUID_VERSION                   0.18.0
 ENV DB_TYPE                         postgresql
 ENV DB_HOST                         postgres
 ENV DB_PORT                         5432
@@ -27,7 +27,7 @@ RUN apk update \
       && apk add --no-cache bash curl \
       && mkdir /tmp/druid \
       && curl \
-      https://www-us.apache.org/dist/druid/$DRUID_VERSION/apache-druid-$DRUID_VERSION-bin.tar.gz | tar -xzf - -C /opt \
+      https://downloads.apache.org/druid/$DRUID_VERSION/apache-druid-$DRUID_VERSION-bin.tar.gz | tar -xzf - -C /opt \
       && ln -s /opt/apache-druid-$DRUID_VERSION /opt/druid
 
 COPY conf /opt/druid/conf
