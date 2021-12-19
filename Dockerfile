@@ -1,6 +1,6 @@
 FROM anapsix/alpine-java:8_server-jre_unlimited
 # Druid env variable
-ENV DRUID_VERSION                   0.18.0
+ENV DRUID_VERSION                   0.22.1
 ENV DB_TYPE                         postgresql
 ENV DB_HOST                         postgres
 ENV DB_PORT                         5432
