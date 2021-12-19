@@ -1,5 +1,5 @@
 # Druid Cluster Locally
-A fully functional druid cluster on your local machine with AWS s3 as deep storage configuration. Join support shipped with v0.18.0 and added kafka node for streaming ingestion.
+A fully functional druid cluster on your local machine with AWS s3 as deep storage configuration. Join support shipped with latest till date of commit and added kafka node for streaming ingestion.
 
 Tags:
 - latest
